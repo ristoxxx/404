@@ -1,0 +1,76 @@
+<!--
+File: error2.html
+Created Date: Saturday January 4th 2025 02:43:14
+Author: ristoxxx@github.com
+-----
+Last Modified: Saturday January 4th 2025 03:21:58
+Modified By: ristoxxx@github.com
+-----
+Copyright (c) 2025 ristoxxx@github.com
+-->
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Guru Meditation</title>
+    <style>
+        body {
+            background-color: black; /* Amigan musta tausta */
+            color: red;              /* Punainen teksti */
+            font-family: 'Courier New', Courier, monospace; /* Monospace-fontti */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Keskitetään sisältö */
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.6rem;
+            margin: 10px 0;
+        }
+
+        .code {
+            margin-top: 20px;
+            font-size: 1.6rem;
+        }
+
+        .blink {
+            animation: blink 1s step-end infinite; /* Tekstin vilkkumisefekti */
+        }
+        .solid {
+            border-style: solid;
+            padding: 0 10%;
+        }
+
+
+        @keyframes blink {
+            from, to {
+                visibility: visible;
+            }
+            50% {
+                visibility: hidden;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="solid">
+    <h1> Requested page not found.
+    <span class="blink">Press RESET to continue. </span></h1>
+    <p>Guru Meditation <span class="code"> #00000404.0000FEEF</span></p>
+    </div>
+</body>
+</html>
